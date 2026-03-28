@@ -1,10 +1,8 @@
-#File Directory things (might be overkill idk yet)
 INCLUDE = -I$(SRC_DIR)/headers
 SRC_DIR = src
 OBJ_DIR = obj
 LOG_DIR = logs
 
-#Compiler and linker things
 CC = g++
 CCFLAGS = -g -Wall -Wextra --std=c++20
 SDL = `sdl2-config --cflags --libs`

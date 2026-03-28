@@ -10,7 +10,11 @@ rgbasm (optional)
 
 ## Building
 
+make
+
 ## Running
+
+`./gameboy-emu -f <rom path>`
 
 ## References
 

@@ -25,10 +25,6 @@ int main(int argc, char** argv)
     // TODO: Check for debug flag passed to pre proc 
     logger.EnableTracing();
 
-    // I don't like how flags are created, mostly in how methods are passed
-    // this is something that I would like to address in the core SKUTIL
-    // flagparse header file as a whole but for now I will deal with it
-    // because parsing flags is easier like this I swear
     SKUTIL::SK_VEC<SKUTIL::Flag> flags {
         {
             'f',
